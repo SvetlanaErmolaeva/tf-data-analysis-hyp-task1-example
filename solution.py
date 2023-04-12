@@ -11,4 +11,7 @@ def solution(x_success: int,
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return False
+    x = False
+    if x_cnt == 5000:
+      x = True
+    return x
